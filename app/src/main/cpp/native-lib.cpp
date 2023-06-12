@@ -1,11 +1,13 @@
 #include <jni.h>
 #include <string>
 #include <android/log.h>
-#include <C:\\Users\andre\AndroidStudioProjects\libs\spdlog\spdlog\include\spdlog\spdlog.h>
-#include <C:\\Users\andre\AndroidStudioProjects\libs\spdlog\spdlog\include\spdlog\sinks\android_sink.h>
-#include <C:\\Users\andre\AndroidStudioProjects\libs\mbedtls\mbedtls\include\mbedtls\entropy.h>
-#include <C:\\Users\andre\AndroidStudioProjects\libs\mbedtls\mbedtls\include\mbedtls\ctr_drbg.h>
-#include <C:\\Users\andre\AndroidStudioProjects\libs\mbedtls\mbedtls\include\mbedtls\des.h>
+#include <D:\\Users\Fedor\AndroidStudioProjects\libs\spdlog\spdlog\include\spdlog\spdlog.h>
+#include <D:\\Users\Fedor\AndroidStudioProjects\libs\spdlog\spdlog\include\spdlog\sinks\android_sink.h>
+
+//
+//#include <D:\\Users\Fedor\AndroidStudioProjects\libs\mbedtls\mbedtls\include\mbedtls\entropy.h>
+//#include <D:\\Users\Fedor\AndroidStudioProjects\libs\mbedtls\mbedtls\include\mbedtls\ctr_drbg.h>
+//#include <D:\\Users\Fedor\AndroidStudioProjects\libs\mbedtls\mbedtls\include\mbedtls\des.h>
 
 mbedtls_entropy_context entropy;
 mbedtls_ctr_drbg_context ctr_drbg;
